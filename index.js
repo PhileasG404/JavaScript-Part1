@@ -51,3 +51,13 @@
 // Soluce 2 :
 // let naissance = prompt ("quel est votre date de naissance") ;
 //alert ((((Number(pointure) 2)+5 )50) - (naissance) + 1766)
+
+
+// exercice 8 :
+let age = prompt("Quel est ton age?")
+if (age > 18) {
+    result = "Tu peux aller sur ce site!";
+  } else {
+    result = "Ce site est innacessible pour toi!";
+  }
+alert( result )
